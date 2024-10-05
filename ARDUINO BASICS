@@ -1,0 +1,29 @@
+#define redPin 9
+#define yellowPin 10
+#define greenPin 11
+
+void setup() {
+  pinMode(redPin, OUTPUT);
+  pinMode(yellowPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+}
+
+void loop() {
+  // Red light on
+  digitalWrite(redPin, HIGH);
+  digitalWrite(yellowPin, LOW);
+  digitalWrite(greenPin, LOW);
+  delay(3000); // Wait for 3 seconds
+
+  // Yellow light on
+  digitalWrite(redPin, LOW);
+  digitalWrite(yellowPin, HIGH);
+  digitalWrite(greenPin, LOW);
+  delay(2000); // Wait for 2 seconds
+
+  // Green light on
+  digitalWrite(redPin, LOW);
+  digitalWrite(yellowPin, LOW);
+  digitalWrite(greenPin, HIGH);
+  delay(3000); // Wait for 3 seconds
+}
