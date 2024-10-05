@@ -1,4 +1,4 @@
-Arduino Traffic Light System:-
+Arduino Traffic Light System
 Description:
 This repository contains the code and documentation for an Arduino-based traffic light system. The project was created to teach a beginner the fundamentals of Arduino programming and electronics.
 Features:
