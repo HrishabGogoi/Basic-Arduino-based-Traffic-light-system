@@ -18,39 +18,6 @@ Getting Started:
  * Circuit Diagram:
  * ![WhatsApp Image 2024-10-05 at 19 27 44_e1b44f44](https://github.com/user-attachments/assets/214f616c-e39f-43f4-8fee-159ea17f5410)
 
- * Code:
-   // Define the pins for the LEDs
-const int redPin = 9;
-const int yellowPin = 10;
-const int greenPin = 11;
-
-void setup() {
-  // Initialize the LED pins as outputs
-  pinMode(redPin, OUTPUT);
-  pinMode(yellowPin, OUTPUT);
-  pinMode(greenPin, OUTPUT);
-}
-
-void loop() {
-  // Red light ON
-  digitalWrite(redPin, HIGH);
-  digitalWrite(yellowPin, LOW);
-  digitalWrite(greenPin, LOW);
-  delay(5000); // Wait for 5 seconds
-
-  // Yellow light ON
-  digitalWrite(redPin, LOW);
-  digitalWrite(yellowPin, HIGH);
-  digitalWrite(greenPin, LOW);
-  delay(2000); // Wait for 2 seconds
-
-  // Green light ON
-  digitalWrite(redPin, LOW);
-  digitalWrite(yellowPin, LOW);
-  digitalWrite(greenPin, HIGH);
-  delay(5000); // Wait for 5 seconds
-}
-
 Usage:
  * Upload the code to your Arduino board.
  * Connect the LEDs, resistors, and breadboard according to the circuit diagram.
