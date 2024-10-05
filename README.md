@@ -16,7 +16,7 @@ Getting Started:
  * Software:
    * Arduino IDE (https://www.arduino.cc/en/Main/Software)
  * Circuit Diagram:
- * ![WhatsApp Image 2024-10-05 at 19 27 44_e1b44f44](https://github.com/user-attachments/assets/214f616c-e39f-43f4-8fee-159ea17f5410)
+![WhatsApp Image 2024-10-05 at 20 11 11_c9403a83](https://github.com/user-attachments/assets/1abee2a8-ad01-489d-a416-148f47760c4d)
 
 Usage:
  * Upload the code to your Arduino board.
