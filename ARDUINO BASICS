@@ -9,19 +9,19 @@ void setup() {
 }
 
 void loop() {
-  // Red light on
+  // Red light ON
   digitalWrite(redPin, HIGH);
   digitalWrite(yellowPin, LOW);
   digitalWrite(greenPin, LOW);
   delay(3000); // Wait for 3 seconds
 
-  // Yellow light on
+  // Yellow light ON
   digitalWrite(redPin, LOW);
   digitalWrite(yellowPin, HIGH);
   digitalWrite(greenPin, LOW);
   delay(2000); // Wait for 2 seconds
 
-  // Green light on
+  // Green light ON
   digitalWrite(redPin, LOW);
   digitalWrite(yellowPin, LOW);
   digitalWrite(greenPin, HIGH);
